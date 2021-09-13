@@ -1,13 +1,13 @@
 module.exports = (options) => ({
   siteMetadata: {
     siteTitle: `Gommit`,
-    siteTitleAlt: `Finnur's digital garden`,
-    siteHeadline: `Finnur's digital garden`,
-    siteUrl: `https://gommit.com`,
-    siteDescription: `Just my patch of the interwebs with all the weeds, apples and dirty laundry`,
+    siteTitleAlt: `Gommit`,
+    siteHeadline: `Gommit`,
+    siteUrl: `https://minimal-blog.lekoarts.de`,
+    siteDescription: `My Digital Garden`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@gommit`,
+    author: `@lekoarts_de`,
   },
   plugins: [
     {
