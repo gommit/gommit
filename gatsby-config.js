@@ -5,10 +5,22 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // You can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitleAlt: `Gommit`,
+    // Used for the title template on pages other than the index site
+    siteTitle: `Gommit`,
+    // Default title of the page
+    siteTitleAlt: `Gommit - Digital Garden`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `Gommit`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://minimal-blog.lekoarts.de`,
+    // Used for SEO
+    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `@gommit`,
   },
   plugins: [
     {
